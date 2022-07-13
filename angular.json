@@ -56,13 +56,14 @@
             },
             "development": {
               "buildOptimizer": false,
-              // "optimization": true,
               "optimization": {
                 "scripts": true,
                 "styles": {
                   "minify": true,
                   "inlineCritical": false
                 },
+                "fonts": true
+              },
               "vendorChunk": true,
               "extractLicenses": false,
               "sourceMap": true,
@@ -114,4 +115,7 @@
   "cli": {
     "analytics": "a67523a9-8e97-4d9b-a712-7ea7ed8596ed"
   }
+},
+"cli": {
+  "analytics": false
 }
